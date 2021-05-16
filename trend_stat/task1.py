@@ -49,17 +49,17 @@ if __name__ == '__main__':
                             stat[key] += 1
                 elif key == "PULocationID":
                     if array[1] != "":
-                        if key not in stat:
-                            stat_2[key] = 1
+                        if array[1] not in stat_2:
+                            stat_2[array[1]] = 1
                         else:
-                            stat_2[key] += 1
+                            stat_2[array[1]] += 1
 
                 elif key == "DOLocationID":
                     if array[1] != "":
-                        if key not in stat:
-                            stat_2[key] = 1
+                        if array[1] not in stat_2:
+                            stat_2[array[1]] = 1
                         else:
-                            stat_2[key] += 1
+                            stat_2[array[1]] += 1
 
     stat["total"] = line_count
     with open(file_path2, mode='w') as f2:
