@@ -53,6 +53,5 @@ def predict(dateset_file, dt_begin_str, dt_end_str):
     plt.plot(results.fittedvalues, color='red')
     plt.show()
 
-    predict_data = model.predict(start="2021-01-01", end="2021-09-01", dynamic=False)
 
 

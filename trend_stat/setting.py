@@ -1,1 +1,3 @@
-dateset_file = "/Users/fugui/Work/project/predict/passengerDs.csv"
+import os
+dateset_file = os.path.join(os.getcwd(), "passengerDs.csv")
+
