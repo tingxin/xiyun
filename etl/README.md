@@ -1,4 +1,6 @@
 # xi yun task
+## 特别说明
+   本程序只模拟了文档架构图中 从处理数据，到推送到时序数据库的部分，使用了influxdb 自带的看板作为可视化工具（本人具有前后的开发能力，但是时间不容许）
 ## Quick Start
 1. 需要提前在部署环境按装好docker 环境,参考 [安装docker](https://docs.docker.com/engine/install/)
 2. 进入script/kafka目录执行命令
