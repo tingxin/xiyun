@@ -1,2 +1,2 @@
 # xiyun
-more detail, please see etl and tren_stat Folder, 
+more detail, please see etl and trend_stat Folder, 
